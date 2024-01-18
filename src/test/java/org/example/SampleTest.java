@@ -19,8 +19,9 @@ public class SampleTest {
 
     @BeforeAll
     public static void setup() {
-        Configuration.browser = "chrome";
+        Configuration.browser = "edge";
         Configuration.baseUrl = "https://www.google.com";
+        Configuration.headless = true;
     }
 
     @BeforeEach
